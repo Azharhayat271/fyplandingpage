@@ -1,0 +1,35 @@
+
+
+.text-danger {
+    color: #ff1100; /* Bootstrap red for error messages */
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px; /* Adjust spacing between field and error message */
+    display: block; /* Ensures error message appears below the field */
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .modal-content {
+    background: white;
+    padding: 15px; /* Reduced padding */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 40%; /* Set a max width */
+    max-width: 100%; /* Ensure it fits smaller screens */
+  }
+  
+  
+  
+
